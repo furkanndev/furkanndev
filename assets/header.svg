@@ -1,0 +1,45 @@
+<svg width="100%" height="200" viewBox="0 0 900 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="auroraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="35%" stop-color="#312e81" />
+      <stop offset="70%" stop-color="#4338ca" />
+      <stop offset="100%" stop-color="#0e7490" />
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.8" />
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#6366f1" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 42px;
+      font-weight: 800;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 19px;
+      font-weight: 500;
+      fill: #e0e7ff;
+      letter-spacing: 0.8px;
+    }
+  </style>
+
+  <!-- Base Smooth Waving Path -->
+  <path d="M 0 0 L 900 0 L 900 135 C 750 185 600 120 450 150 C 300 180 150 130 0 155 Z" fill="url(#auroraGrad)" />
+  
+  <!-- Accent Vibrant Lower Wave -->
+  <path d="M 0 145 C 180 125 320 175 480 145 C 640 115 780 175 900 130 L 900 145 C 750 195 600 130 450 160 C 300 190 150 140 0 165 Z" fill="url(#waveGrad)" filter="url(#glow)" />
+
+  <!-- Center Typography -->
+  <text x="450" y="78" text-anchor="middle" class="title">Furkan Gültekin</text>
+  <text x="450" y="116" text-anchor="middle" class="subtitle">Software Developer • Desktop Architecture • Systems &amp; Automation</text>
+</svg>
