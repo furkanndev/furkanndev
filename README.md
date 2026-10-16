@@ -1,61 +1,67 @@
 # Furkan Gültekin
-### Data-Driven Software Engineer &bull; Desktop Application Architecture &bull; Systems & Automation
+### Software Developer &bull; Systems Explorer &bull; Desktop Application Architect
 
 <p align="left">
   <a href="mailto:ffurkangltkn@gmail.com"><img src="https://img.shields.io/badge/Email-ffurkangltkn%40gmail.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Furkan%20Gültekin-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/furkanndev"><img src="https://img.shields.io/badge/GitHub-furkanndev-24292e?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <img src="https://img.shields.io/badge/Location-Turkey-gray?style=flat-square" alt="Location" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Engineering%20Roles-success?style=flat-square" alt="Status" />
-  <img src="https://komarev.com/ghpvc/?username=furkanndev&label=Profile%20Telemetry&color=27272a&style=flat-square" alt="Telemetry" />
+  <img src="https://img.shields.io/badge/Focus-Desktop%20%26%20Systems%20Engineering-27272a?style=flat-square" alt="Focus" />
 </p>
 
 ---
 
-## Engineering Telemetry Dashboard
+## The Philosophy: Demystifying the Black Box
 
-```text
-=========================================================================================
-SYSTEM METRICS & PROFILING REPORT : FURKAN GÜLTEKIN
-=========================================================================================
-Primary Specialization   : Desktop Architecture, Low-Latency Runtimes & Systems Automation
-Primary Operating Targets: Windows 10/11 (Win32 / Qt), Linux (Debian, Ubuntu, Systemd)
-Engineering Methodology  : Data-Driven, Decoupled Domain Architecture, Memory-Bound Profiling
-Artifact Compilation     : Standalone Executables (.exe), System Daemons, Native Binaries
-=========================================================================================
-```
+I have always believed that great software engineering happens at the intersection of **low-level curiosity** and **end-user craftsmanship**. Rather than treating frameworks, operating systems, and network protocols as impenetrable black boxes, my passion lies in understanding how things operate under the hood:
 
-| Dimension | Primary Telemetry | Secondary / Auxiliary |
-| :--- | :--- | :--- |
-| **Core Runtimes** | Python 3.10+ (45%), C# .NET 8 (30%) | Modern C++17 (15%), Bash / SQL / Web (10%) |
-| **Desktop Engines** | PyQt6 / PySide6 (Qt6 Widgets), PyMuPDF (C Engine) | Windows Forms, WPF, RapidOCR / ONNX Runtime |
-| **Automation & Systems** | Linux Kernel `inotify`, Systemd Services | REST API Reverse Engineering, CDN Sniffing |
-| **Distribution Pipelines** | Inno Setup 6 Scripted Compilers, PyInstaller Specs | GitHub Actions CI/CD, Docker Containerization |
-| **Data Persistence** | PostgreSQL, SQLite, MS SQL Server | MongoDB, Redis, Atomic File / JSON I/O |
+- How memory pointers and coordinate matrices transform in memory.
+- How binary document formats like PDF render in sub-second latency through low-level C bindings.
+- How network streams can be inspected and leveraged without leaving traces.
+- How standalone executables and background daemons can run reliably across diverse environments without external dependencies.
+
+This mindset shapes everything I build: from lightweight Linux daemons to rich, multi-tabbed Windows productivity suites.
 
 ---
 
-## Weekly Activity & Productivity Heatmap
+## The Engineering Journey
 
 ```text
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ DEVELOPMENT TIMEFRAME & COMMIT DISTRIBUTION                                            │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│ Morning   (06:00 - 12:00) : [████████░░░░░░░░░░░░░░░░░░░░░░░░]   22.4 %                │
-│ Afternoon (12:00 - 18:00) : [██████████████████░░░░░░░░░░░░]   45.8 % (Peak Velocity)│
-│ Evening   (18:00 - 00:00) : [████████████░░░░░░░░░░░░░░░░░░]   26.5 %                │
-│ Night     (00:00 - 06:00) : [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░]    5.3 %                │
-└────────────────────────────────────────────────────────────────────────────────────────┘
+2022 ──► Low-Level Foundations & Memory Concepts (C, C++, Data Structures, Linux)
+2023 ──► Layered Architecture & Event-Driven Systems (C# .NET, Windows Forms, OOD)
+2024 ──► Linux Kernel Internals & Daemons (Systemd, inotify Event Hooks, POSIX Scripting)
+2025 ──► Desktop Architecture & Reverse Engineering (Python, PyQt6, PyMuPDF, Inno Setup)
+2026 ──► Full-Lifecycle Product Engineering (AuraPDF Suite, Social-Saver, Standalone Releases)
 ```
+
+### Academic & Foundational Roots
+My engineering journey took root at **Sakarya University's Faculty of Computer and Information Sciences (Information Systems Engineering)**. Immersed in algorithms, object-oriented design, systems programming, and database theory, I sought to bridge academic rigor with real-world, deployable products.
 
 ---
 
-## Technical Competency Matrix
+## Deep Dives: Engineering Challenges & Solved Problems
+
+### 1. In-Page PDF Text Mutation & Document Flow ([AuraPDF](https://github.com/furkanndev/AuraPDF))
+* **The Challenge:** Most PDF readers treat documents as static, read-only raster canvases. Modifying embedded PDF text typically requires expensive cloud subscriptions or clunky external editors that corrupt layout coordinates.
+* **The Solution:** Integrated **PyMuPDF's C-based rendering engine** with **PyQt6**, building an in-place canvas mutation editor. The system extracts exact character bounding boxes, renders interactive overlay widgets, and reflows mutated text blocks back into the PDF content stream while preserving document integrity.
+* **The Packaging:** Configured automated build pipelines with **Inno Setup 6** and **PyInstaller**, creating single-click, self-contained Windows installers (`.exe`) with native theme adapters and embedded local ONNX OCR models.
+
+### 2. Zero-Beacon CDN Interception & Session Automation ([Social-Saver](https://github.com/furkanndev/Social-Saver))
+* **The Challenge:** Viewing and archiving high-bitrate ephemeral stories without triggering user-facing "seen" telemetry beacons.
+* **The Solution:** Reverse-engineered web endpoints to isolate raw CDN media streams directly. Developed a lightweight embedded webview that intercepts active session credentials and CSRF tokens automatically, pairing it with an in-memory streaming ZIP compression engine for bulk media export.
+
+### 3. Non-Polling Filesystem Change Auditing ([DirectoryChangeMonitorService](https://github.com/furkanndev/DirectoryChangeMonitorService))
+* **The Challenge:** Auditing filesystem directory changes on Linux without wasting CPU cycles through continuous file polling loops.
+* **The Solution:** Leveraged the Linux kernel's native `inotify` subsystem (`inotifywait`) across specific event masks (`modify`, `attrib`, `close_write`, `move`, `create`, `delete`), wrapping the loop in a fully managed `systemd` daemon unit featuring boot autostart and persistent journal logging.
+
+---
+
+## Comprehensive Technical Matrix
 
 <table>
   <thead>
     <tr>
-      <th width="28%">Domain</th>
+      <th width="28%">Engineering Domain</th>
       <th>Technologies, Frameworks & Tooling</th>
     </tr>
   </thead>
@@ -69,12 +75,12 @@ Artifact Compilation     : Standalone Executables (.exe), System Daemons, Native
         <code>C (POSIX)</code> &bull; 
         <code>TypeScript</code> &bull; 
         <code>JavaScript (ES6+)</code> &bull; 
-        <code>Bash / Shell Scripting</code> &bull; 
+        <code>Bash / POSIX Shell</code> &bull; 
         <code>SQL</code>
       </td>
     </tr>
     <tr>
-      <td><b>Desktop & Native Frameworks</b></td>
+      <td><b>Desktop & GUI Development</b></td>
       <td>
         <code>PyQt6 / PySide6 (Qt6 Core & Widgets)</code> &bull; 
         <code>Windows Forms</code> &bull; 
@@ -90,9 +96,9 @@ Artifact Compilation     : Standalone Executables (.exe), System Daemons, Native
         <code>Flask</code> &bull; 
         <code>FastAPI</code> &bull; 
         <code>Node.js / Express</code> &bull; 
-        <code>RESTful Architecture</code> &bull; 
+        <code>RESTful API Design</code> &bull; 
         <code>WebSockets</code> &bull; 
-        <code>BeautifulSoup4 / Web Scraping</code> &bull; 
+        <code>BeautifulSoup4 / DOM Scraping</code> &bull; 
         <code>Bootstrap 5</code> &bull; 
         <code>TailwindCSS</code>
       </td>
@@ -136,19 +142,27 @@ Artifact Compilation     : Standalone Executables (.exe), System Daemons, Native
 
 ---
 
-## Engineering Ledger: Project Benchmarks & Case Studies
+## Selected Engineering Works
 
-| Project | Primary Stack | Architecture Pattern | Output Artifact | Key Engineering Metric / Benchmark |
-| :--- | :--- | :--- | :--- | :--- |
-| **[AuraPDF](https://github.com/furkanndev/AuraPDF)** | `Python 3.10+`<br>`PyQt6` `PyMuPDF` | Modular Multi-Tabbed GUI &bull; C-Engine Rendering | Signed Windows Installer (`.exe`) via Inno Setup 6 | Sub-second page rendering latency, real-time in-page text reflow, and offline OCR via ONNX inference. |
-| **[Social-Saver](https://github.com/furkanndev/Social-Saver)** | `Python` `Flask`<br>`REST API` | Reverse-Engineered Network Interceptor | Local Web-Desktop Application (`start.bat`) | Zero read-receipt beacons (`seen = false`) via direct CDN streaming; automated browser session ID capture. |
-| **[NavalStrike](https://github.com/furkanndev/NavalStrike)** | `C#` `.NET`<br>`Windows Forms` | Decoupled Multi-Assembly (`Savas.Library` / `Savas.Desktop`) | Compiled Windows Binary (`.exe`) | Strict interface contracts (`IHareketEden`), polymorphic entity hierarchies, and 60 FPS deterministic game loop. |
-| **[DirectoryChangeMonitor](https://github.com/furkanndev/DirectoryChangeMonitorService)** | `Bash`<br>`Linux inotify` | Kernel-Hooked Event Daemon | Managed `systemd` Service Unit | Zero-polling CPU utilization; real-time filesystem change auditing across 6 POSIX event masks. |
-| **[MatrixManipulator](https://github.com/furkanndev/MatrixManipulator)** | `Modern C++17`<br>`STL` | In-Place Scalar Transformation Engine | Optimized Native Executable (`g++ -O2`) | Zero heap-allocation overhead during permutations; deterministic $O(n^3)$ classical matrix dot product. |
+| Project | Focus | Architecture & Key Deliverables |
+| :--- | :--- | :--- |
+| **[AuraPDF](https://github.com/furkanndev/AuraPDF)** | Desktop PDF Productivity Suite | Multi-tabbed PyQt6 interface, C-engine PyMuPDF rendering, in-place text mutation, local ONNX OCR, and single-click Windows `.exe` installer via Inno Setup 6. |
+| **[Social-Saver](https://github.com/furkanndev/Social-Saver)** | Media Archival & Extraction Engine | Direct CDN stream extraction without read-receipt beacons (`seen = false`), automated session token capture, and streaming ZIP compression. |
+| **[NavalStrike](https://github.com/furkanndev/NavalStrike)** | Decoupled 2D Arcade Game Engine | Strict object-oriented design separating domain library (`Savas.Library`) from presentation (`Savas.Desktop`), interface contracts (`IHareketEden`), and persistent scoring. |
+| **[DirectoryChangeMonitor](https://github.com/furkanndev/DirectoryChangeMonitorService)** | Linux Filesystem Auditing Daemon | Kernel-hooked event loops via `inotifywait` tracking POSIX filesystem operations under a fully managed `systemd` service unit. |
+| **[MatrixManipulator](https://github.com/furkanndev/MatrixManipulator)** | Linear Algebra Permutations | Modern C++17 utility executing in-place scalar coordinate permutations and classical matrix dot product calculations with strict memory safety. |
 
 ---
 
-## Quantitative GitHub Metrics
+## My Core Engineering Principles
+
+1. **End-to-End Shipping (The Final 10% Matters Most):** Writing code that runs in a local IDE is only half the battle. A project is truly complete when it is packaged with automated installers, documented with clarity, and immediately accessible to end users without environment friction.
+2. **Decoupled Architecture:** Business and domain logic should never be tightly coupled to presentation layers. Modular interfaces ensure that core engines survive UI paradigm shifts.
+3. **Respect for System Resources:** Efficiency is not optional. Minimizing RAM footprints, avoiding needless polling loops, and leveraging native C/C++ libraries ensure responsive, low-latency applications.
+
+---
+
+## GitHub Activity & Development Cadence
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=furkanndev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Metrics" width="49%" />
@@ -171,17 +185,11 @@ Artifact Compilation     : Standalone Executables (.exe), System Daemons, Native
 
 ---
 
-## Academic Background
+## Connect & Collaborate
 
-**Sakarya University** *(Sakarya Üniversitesi)*  
-**Faculty of Computer and Information Sciences**  
-*Bachelor of Science in Information Systems Engineering (Bilişim Sistemleri Mühendisliği)*
-
----
-
-## Communication & Verification Channels
+I am always interested in discussing desktop software architecture, systems programming, and high-impact software engineering opportunities.
 
 - **Email:** [ffurkangltkn@gmail.com](mailto:ffurkangltkn@gmail.com)
 - **LinkedIn:** [linkedin.com/in/furkan-gultekin](https://linkedin.com)
 - **GitHub:** [github.com/furkanndev](https://github.com/furkanndev)
-- **Location:** Turkey
+- **Education:** Sakarya University &bull; B.S. in Information Systems Engineering
