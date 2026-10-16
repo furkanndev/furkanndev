@@ -13,31 +13,31 @@
 
 ---
 
-### 👨‍💻 About Me
+### About Me
 
-Hello! 👋 I'm **Furkan Gültekin**, a **Software Developer** from Turkey dedicated to engineering high-performance desktop applications, system utilities, and modern automation solutions.
+I am **Furkan Gültekin**, a **Software Developer** from Turkey dedicated to engineering high-performance desktop applications, system utilities, and robust automation solutions.
 
-- 🔭 **What I'm building:** Active creator & maintainer of **[AuraPDF](https://github.com/furkanndev/AuraPDF)** — a modern, multi-tabbed Windows PDF productivity suite with built-in OCR and page manipulation.
-- 💻 **Core Focus:** Desktop Application Architecture (Qt/PyQt, C#/.NET), API reverse engineering, and background system services.
-- ⚙️ **End-to-End Shipping:** From architecture design and UI/UX implementation to standalone compilation (`.exe` via Inno Setup / PyInstaller) and automated CI/CD workflows.
-- 🎯 **Interests:** Systems programming, document processing, performance optimization, and developer tooling.
-- 📫 **Let's connect:** Reach me directly at **[ffurkangltkn@gmail.com](mailto:ffurkangltkn@gmail.com)**.
+- **Current Focus:** Creator and maintainer of **[AuraPDF](https://github.com/furkanndev/AuraPDF)** — a multi-tabbed Windows desktop PDF suite with built-in OCR and page manipulation.
+- **Core Competencies:** Desktop Application Architecture (Qt/PyQt, C#/.NET), API reverse engineering, and background system services.
+- **Full Lifecycle Engineering:** Architecture design, UI/UX implementation, standalone compilation (`.exe` via Inno Setup / PyInstaller), and CI/CD pipelines.
+- **Technical Interests:** Systems programming, document processing, performance optimization, and developer tooling.
+- **Contact:** Reach me directly at **[ffurkangltkn@gmail.com](mailto:ffurkangltkn@gmail.com)**.
 
 ---
 
-### 🚀 Featured Projects
+### Featured Projects
 
 | Project | Tech Stack | Description | Key Capabilities |
 | :--- | :--- | :--- | :--- |
-| **[AuraPDF](https://github.com/furkanndev/AuraPDF)** | `Python` `PyQt / Qt` `RapidOCR` `Inno Setup` | Modern, tabbed Windows desktop PDF suite engineered for power users. | • In-page direct text editing & OCR<br>• Split, merge, compress & encrypt<br>• Custom standalone installer (`.exe`) |
-| **[Social-Saver](https://github.com/furkanndev/Social-Saver)** | `Python` `Flask` `Reverse Eng` `REST API` | Anonymous Instagram story & full-resolution profile media downloader. | • 100% anonymous story streaming<br>• Bulk `.zip` archive export<br>• Automated session capture |
+| **[AuraPDF](https://github.com/furkanndev/AuraPDF)** | `Python` `PyQt / Qt` `RapidOCR` `Inno Setup` | Modern, tabbed Windows desktop PDF suite engineered for power users. | • In-page direct text editing & OCR<br>• Split, merge, compress & encrypt<br>• Standalone Windows installer (`.exe`) |
+| **[Social-Saver](https://github.com/furkanndev/Social-Saver)** | `Python` `Flask` `Reverse Eng` `REST API` | Anonymous Instagram story & full-resolution profile media downloader. | • Anonymous media streaming<br>• Bulk `.zip` archive export<br>• Automated session capture |
 | **[HiddenObjectsGame](https://github.com/furkanndev/HiddenObjectsGame)** | `C#` `.NET` `OOP` `UI Logic` | Interactive 2D puzzle game built with modular object detection. | • Custom game loop & event handlers<br>• Dynamic UI state transitions |
 | **[MatrixManipulator](https://github.com/furkanndev/MatrixManipulator)** | `C++` `Algorithms` `Linear Algebra` | High-performance matrix mathematics and linear algebra engine. | • Optimized matrix operations<br>• Clean modern C++ implementation |
 | **[DirectoryChangeMonitor](https://github.com/furkanndev/DirectoryChangeMonitorService)** | `Bash` `Linux` `Systemd` | Linux background daemon auditing filesystem directory changes. | • Real-time event monitoring<br>• Automated change logging & reports |
 
 ---
 
-### 🛠️ Tech Stack & Skills
+### Technical Stack & Skills
 
 <table>
   <tr>
@@ -89,7 +89,7 @@ Hello! 👋 I'm **Furkan Gültekin**, a **Software Developer** from Turkey dedic
 
 ---
 
-### 📊 GitHub Activity & Analytics
+### GitHub Analytics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=furkanndev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Furkan's GitHub Stats" width="49%" />
@@ -102,7 +102,7 @@ Hello! 👋 I'm **Furkan Gültekin**, a **Software Developer** from Turkey dedic
 
 ---
 
-### 🐍 Contribution Activity
+### Contribution Activity
 
 <div align="center">
   <picture>
@@ -115,5 +115,5 @@ Hello! 👋 I'm **Furkan Gültekin**, a **Software Developer** from Turkey dedic
 ---
 
 <div align="center">
-  <sub>Designed & engineered with ❤️ by Furkan Gültekin</sub>
+  <sub>Furkan Gültekin • Software Developer</sub>
 </div>
