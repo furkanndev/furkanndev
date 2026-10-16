@@ -1,13 +1,20 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,20&height=210&section=header&text=Furkan%20G%C3%BCltekin&fontSize=42&fontAlignY=38&desc=Software%20Developer%20%7C%20Desktop%20Apps%20%E2%80%A2%20Systems%20%E2%80%A2%20Automation&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,20&height=200&section=header&text=Furkan%20G%C3%BCltekin&fontSize=42&fontAlignY=38&desc=Software%20Developer%20%7C%20Desktop%20Architecture%20%E2%80%A2%20Systems%20%E2%80%A2%20Automation&descAlignY=62&descAlign=50" width="100%" alt="Furkan Gültekin Banner" />
 </div>
 
 <div align="center">
 
-  [![Email](https://img.shields.io/badge/Email-ffurkangltkn%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ffurkangltkn@gmail.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-  [![GitHub Followers](https://img.shields.io/github/followers/furkanndev?label=Followers&style=for-the-badge&logo=github&color=24292e)](https://github.com/furkanndev?tab=followers)
-  [![Profile Views](https://komarev.com/ghpvc/?username=furkanndev&label=Profile%20Views&color=0e75b6&style=for-the-badge)](https://github.com/furkanndev)
+  [![Email](https://img.shields.io/badge/Email-ffurkangltkn%40gmail.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:ffurkangltkn@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com)
+  [![GitHub Followers](https://img.shields.io/github/followers/furkanndev?label=Followers&style=flat-square&logo=github&color=21262d)](https://github.com/furkanndev?tab=followers)
+  [![Profile Views](https://komarev.com/ghpvc/?username=furkanndev&label=Profile%20Views&color=21262d&style=flat-square)](https://github.com/furkanndev)
+
+  <p align="center">
+    <a href="#about-me">About Me</a> &bull;
+    <a href="#featured-projects">Featured Projects</a> &bull;
+    <a href="#technical-stack--skills">Technical Stack</a> &bull;
+    <a href="#github-analytics">GitHub Analytics</a>
+  </p>
 
 </div>
 
@@ -15,12 +22,12 @@
 
 ### About Me
 
-I am **Furkan Gültekin**, a **Software Developer** from Turkey dedicated to engineering high-performance desktop applications, system utilities, and robust automation solutions.
+I am **Furkan Gültekin**, a **Software Developer** dedicated to engineering high-performance desktop applications, system utilities, and robust automation solutions.
 
-- **Current Focus:** Creator and maintainer of **[AuraPDF](https://github.com/furkanndev/AuraPDF)** — a multi-tabbed Windows desktop PDF suite with built-in OCR and page manipulation.
-- **Core Competencies:** Desktop Application Architecture (Qt/PyQt, C#/.NET), API reverse engineering, and background system services.
-- **Full Lifecycle Engineering:** Architecture design, UI/UX implementation, standalone compilation (`.exe` via Inno Setup / PyInstaller), and CI/CD pipelines.
-- **Technical Interests:** Systems programming, document processing, performance optimization, and developer tooling.
+- **Current Focus:** Creator and maintainer of **[AuraPDF](https://github.com/furkanndev/AuraPDF)** — a modern, multi-tabbed Windows desktop PDF platform with built-in OCR and in-page document manipulation.
+- **Core Competencies:** Desktop Application Architecture (Qt/PyQt, C#/.NET), API reverse engineering, and background daemon services.
+- **Full Lifecycle Engineering:** System design, UI/UX implementation, standalone compilation (`.exe` via Inno Setup 6 / PyInstaller), and CI/CD pipelines.
+- **Academic Background:** Sakarya University *(Sakarya Üniversitesi)* &bull; B.S. in Information Systems Engineering.
 - **Contact:** Reach me directly at **[ffurkangltkn@gmail.com](mailto:ffurkangltkn@gmail.com)**.
 
 ---
@@ -29,11 +36,11 @@ I am **Furkan Gültekin**, a **Software Developer** from Turkey dedicated to eng
 
 | Project | Tech Stack | Description | Key Capabilities |
 | :--- | :--- | :--- | :--- |
-| **[AuraPDF](https://github.com/furkanndev/AuraPDF)** | `Python` `PyQt / Qt` `RapidOCR` `Inno Setup` | Modern, tabbed Windows desktop PDF suite engineered for power users. | • In-page direct text editing & OCR<br>• Split, merge, compress & encrypt<br>• Standalone Windows installer (`.exe`) |
-| **[Social-Saver](https://github.com/furkanndev/Social-Saver)** | `Python` `Flask` `Reverse Eng` `REST API` | Anonymous Instagram story & full-resolution profile media downloader. | • Anonymous media streaming<br>• Bulk `.zip` archive export<br>• Automated session capture |
-| **[HiddenObjectsGame](https://github.com/furkanndev/HiddenObjectsGame)** | `C#` `.NET` `OOP` `UI Logic` | Interactive 2D puzzle game built with modular object detection. | • Custom game loop & event handlers<br>• Dynamic UI state transitions |
-| **[MatrixManipulator](https://github.com/furkanndev/MatrixManipulator)** | `C++` `Algorithms` `Linear Algebra` | High-performance matrix mathematics and linear algebra engine. | • Optimized matrix operations<br>• Clean modern C++ implementation |
-| **[DirectoryChangeMonitor](https://github.com/furkanndev/DirectoryChangeMonitorService)** | `Bash` `Linux` `Systemd` | Linux background daemon auditing filesystem directory changes. | • Real-time event monitoring<br>• Automated change logging & reports |
+| **[AuraPDF](https://github.com/furkanndev/AuraPDF)**<br><code>v1.1</code> &bull; <code>Win x64</code> | `Python 3.10+`<br>`PyQt6` `PyMuPDF`<br>`RapidOCR` `Inno Setup` | Modern, tabbed Windows desktop PDF suite engineered for power users and offices. | • In-page direct text editing & OCR<br>• Multi-file split, merge, compress & encrypt<br>• Standalone Windows installer (`.exe`) |
+| **[Social-Saver](https://github.com/furkanndev/Social-Saver)**<br><code>v1.0</code> &bull; <code>Desktop/Web</code> | `Python` `Flask`<br>`Reverse Eng`<br>`REST API` `Webview` | Anonymous Instagram story & full-resolution profile media downloader. | • 100% anonymous CDN stream extraction (`seen = false`)<br>• Automated session token capture via webview<br>• Streaming bulk `.zip` archive export |
+| **[NavalStrike](https://github.com/furkanndev/NavalStrike)**<br><code>2D Arcade Engine</code> | `C#` `.NET`<br>`Windows Forms`<br>`OOP Architecture` | Interactive 2D naval arcade game demonstrating clean decoupled architecture. | • Decoupled domain engine (`Savas.Library`) and UI (`Savas.Desktop`)<br>• Interface contracts (`IHareketEden`) & polymorphism<br>• 60 FPS loop & persistent leaderboards |
+| **[DirectoryChangeMonitor](https://github.com/furkanndev/DirectoryChangeMonitorService)**<br><code>Linux Daemon</code> | `Bash` `Systemd`<br>`Linux inotify` | Linux background daemon auditing filesystem directory changes in real time. | • Zero-polling kernel event loops via `inotifywait`<br>• Real-time logging across 6 POSIX event masks<br>• Managed `systemd` service unit |
+| **[MatrixManipulator](https://github.com/furkanndev/MatrixManipulator)**<br><code>Modern C++17</code> | `C++17` `STL`<br>`Linear Algebra`<br>`Algorithms` | High-performance matrix mathematics and coordinate transformation engine. | • In-place coordinate scalar permutations ($A_{ij} \longleftrightarrow B_{ij}$)<br>• Classical dot product calculations ($O(n^3)$)<br>• Zero heap reallocation overhead |
 
 ---
 
@@ -67,6 +74,17 @@ I am **Furkan Gültekin**, a **Software Developer** from Turkey dedicated to eng
     </td>
   </tr>
   <tr>
+    <td width="22%" align="center"><b>Systems & Automation</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Linux%20Systemd-FCC624?style=flat-square&logo=linux&logoColor=black" />
+      <img src="https://img.shields.io/badge/Kernel%20inotify-21262d?style=flat-square&logo=linux&logoColor=white" />
+      <img src="https://img.shields.io/badge/Reverse%20Engineering-blue?style=flat-square" />
+      <img src="https://img.shields.io/badge/PyMuPDF-D9381E?style=flat-square" />
+      <img src="https://img.shields.io/badge/RapidOCR%20%2F%20ONNX-38B2AC?style=flat-square" />
+      <img src="https://img.shields.io/badge/Win32%20API-0078D7?style=flat-square&logo=windows&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
     <td width="22%" align="center"><b>DevOps & Tools</b></td>
     <td>
       <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
@@ -74,7 +92,7 @@ I am **Furkan Gültekin**, a **Software Developer** from Turkey dedicated to eng
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
       <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
       <img src="https://img.shields.io/badge/PyInstaller-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Inno%20Setup-0078D7?style=flat-square&logo=windows&logoColor=white" />
+      <img src="https://img.shields.io/badge/Inno%20Setup%206-0078D7?style=flat-square&logo=windows&logoColor=white" />
       <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
       <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
       <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visual-studio&logoColor=white" />
@@ -97,7 +115,7 @@ I am **Furkan Gültekin**, a **Software Developer** from Turkey dedicated to eng
 ### GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=furkanndev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Furkan's GitHub Stats" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=furkanndev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117" alt="Furkan's GitHub Stats" width="49%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=furkanndev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" width="45%" />
 </div>
 
@@ -120,5 +138,5 @@ I am **Furkan Gültekin**, a **Software Developer** from Turkey dedicated to eng
 ---
 
 <div align="center">
-  <sub>Furkan Gültekin • Software Developer</sub>
+  <sub>Furkan Gültekin &bull; Software Developer &bull; Desktop Architecture &amp; Systems</sub>
 </div>
