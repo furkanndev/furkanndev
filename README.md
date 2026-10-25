@@ -66,49 +66,119 @@ I am **Furkan Gültekin**, a **Software Developer & Desktop Architect** speciali
 <a id="02-flagships"></a>
 ### `02 · FLAGSHIPS` &mdash; Production Desktop Workstations
 
-#### 01 / AuraPDF Pro &mdash; `High-Performance Desktop PDF Suite`
+<div align="center">
+  <a href="https://github.com/furkanndev/AuraPDF">
+    <img src="https://raw.githubusercontent.com/furkanndev/furkanndev/main/assets/card_aurapdf.svg" width="100%" alt="AuraPDF Pro Showcase Card" />
+  </a>
+</div>
 
-> *"Acrobat-grade precision without the telemetry, subscriptions, or bloat."*
+<br/>
 
-* **Architecture:** `Python 3.10+` &bull; `PyQt6 Native` &bull; `PyMuPDF 2.0 (C++ Engine)` &bull; `ONNX / RapidOCR` &bull; `Inno Setup 6` &bull; `Win x64`
-* **Core Engineering:**
-  * **In-Place Text Mutation:** Directly click into page text streams to modify sentences, swap typography, adjust sizing, and reflow blocks in real time.
-  * **Sandwich OCR Engine:** Generates an invisible, coordinate-aligned searchable text layer behind scanned bitmap documents without degrading visual quality.
-  * **Document Conversion Pipelines:** Automated export to Microsoft Word (`.docx`), Excel (`.xlsx`), PowerPoint (`.pptx`), and reflowable `.epub`.
-  * **Security & Integrity:** Digital stylus signatures, official PNG stamps, bidirectional AcroForms, Bates numbering, and permanent black-out redaction.
-* **Repository:** **[github.com/furkanndev/AuraPDF &rarr;](https://github.com/furkanndev/AuraPDF)**
-
----
-
-#### 02 / Keystone &mdash; `Automated Windows Deployment & Optimization Platform`
-
-> *"Zero-friction workstation onboarding for fresh Windows 10 & 11 environments."*
-
-* **Architecture:** `Python 3.11+` &bull; `PyQt6` &bull; `Win32 API` &bull; `Winget Integration` &bull; `Windows Registry` &bull; `PyInstaller` &bull; `Win x64`
-* **Core Engineering:**
-  * **140+ Silent Deployments:** Automated silent package retrieval across essential runtimes, developer toolchains, browsers, and utilities via Winget.
-  * **Validated Registry Tweaks:** Reclaims taskbar end-task, legacy context menus, and debloats telemetry with real-time `[Active]/[Disabled]` inspection and one-click rollback.
-  * **Pre/Post-Format Migration:** Exports browser bookmarks, Wi-Fi passwords, SSH keys, `.gitconfig`, PowerShell profiles, and VS Code configurations into executable deployment manifests.
-  * **Multi-Profile Isolation:** Independent workspace configurations (`Developer Setup`, `Gaming Rig`, `Clean Workstation`) with portable persistence.
-* **Repository:** **[github.com/furkanndev/KeyStone &rarr;](https://github.com/furkanndev/KeyStone)**
+<div align="center">
+  <a href="https://github.com/furkanndev/KeyStone">
+    <img src="https://raw.githubusercontent.com/furkanndev/furkanndev/main/assets/card_keystone.svg" width="100%" alt="Keystone Showcase Card" />
+  </a>
+</div>
 
 ---
 
 <a id="03-works"></a>
-### `03 · WORKS` &mdash; Repository Directory & Key Builds
+### `03 · WORKS` &mdash; Selected Repositories & Engineering Builds
 
-| Index | Repository | Domain & Architecture | Core Stack | Key Capabilities |
-| :---: | :--- | :--- | :--- | :--- |
-| `01` | **[AuraPDF Pro](https://github.com/furkanndev/AuraPDF)**<br><code>FLAGSHIP</code> | Windows PDF Workstation | `Python 3.10+`<br>`PyQt6` `PyMuPDF`<br>`Inno Setup 6` | Direct in-page text editing, sandwich OCR, AcroForms, Word/Excel export, standalone `.exe`. |
-| `02` | **[Keystone](https://github.com/furkanndev/KeyStone)**<br><code>FLAGSHIP</code> | Windows Workstation Setup | `Python 3.11+`<br>`PyQt6` `Win32`<br>`Winget` `PyInstaller` | 140+ silent package deployment, live registry optimization rollback, backup & migration manifests. |
-| `03` | **[Social-Saver](https://github.com/furkanndev/Social-Saver)**<br><code>SYSTEMS</code> | Media Stream Interception | `Python` `Flask`<br>`Reverse Eng` `Webview` | 100% anonymous CDN extraction (`seen = false`), automated session token capture, bulk `.zip`. |
-| `04` | **[DirectoryChangeMonitor](https://github.com/furkanndev/DirectoryChangeMonitorService)**<br><code>DAEMON</code> | Linux Filesystem Auditing | `Bash 4+` `Systemd`<br>`Linux inotify` | Zero-polling kernel event loops via `inotifywait`, atomic audit logging across 6 POSIX event masks. |
-| `05` | **[NavalStrike](https://github.com/furkanndev/NavalStrike)**<br><code>ARCADE</code> | 2D Naval Physics Engine | `C#` `.NET`<br>`WinForms` `OOP` | Decoupled domain engine (`Savas.Library`) and presentation UI, interface contracts, 60 FPS loop. |
-| `06` | **[HiddenObjectsGame](https://github.com/furkanndev/HiddenObjectsGame)**<br><code>TACTICAL</code> | Procedural Grid Search | `C#` `.NET`<br>`Procedural` `ANSI` | Dynamic 20x20 Cartesian grid, algorithmic collision-free object seeding, color-coded fog of war. |
-| `07` | **[MatrixManipulator](https://github.com/furkanndev/MatrixManipulator)**<br><code>ALGORITHMS</code> | Linear Algebra Engine | `Modern C++17`<br>`STL` `Algorithms` | Randomized 5x5 square matrix generation, in-place coordinate swaps ($A_{ij} \longleftrightarrow B_{ij}$), dot products ($O(n^3)$). |
-| `08` | **[DealerDistribution](https://github.com/furkanndev/DealerDistribution)**<br><code>SIMULATION</code> | Supply Chain Traversal | `C++` `Pointers`<br>`File I/O` `Streams` | Memory address pointer tracking with structured file serialization (`orders.txt`), randomized dealer traversal. |
-| `09` | **[BusPassengerAllocation](https://github.com/furkanndev/BusPassengerAllocation)**<br><code>STRUCTURES</code> | Tour Seat Allocation | `C` `GCC`<br>`Stack & List` | Sequential row-by-row seating allocation across dynamic multi-bus quotas (up to 8 buses), manifests. |
-| `10` | **[IEEE754-Converter](https://github.com/furkanndev/IEEE754-Converter)**<br><code>LOW-LEVEL</code> | Floating-Point Binary Synthesizer | `C` `Bitwise`<br>`Computer Systems` | Single (32-bit float) and double (64-bit double) precision IEEE 754 bitwise extraction & synthesis. |
+```text
+================================================================================
+INDEX | REPOSITORY                     | DOMAIN ARCHITECTURE         | STATUS
+================================================================================
+  01  | AuraPDF Pro                    | Desktop PDF Platform        | [RELEASE v2.2.3]
+  02  | Keystone                       | Windows Workstation Setup   | [VERSION 1.0]
+  03  | Social-Saver                   | Media Stream Interceptor    | [PRODUCTION]
+  04  | DirectoryChangeMonitorService  | Linux inotify Daemon        | [ACTIVE DAEMON]
+  05  | NavalStrike                    | 2D Naval Physics Engine     | [GPL 3.0]
+  06  | HiddenObjectsGame              | Tactical Grid Deduction     | [CLI ARCADE]
+  07  | MatrixManipulator              | C++17 Linear Algebra        | [ALGORITHMIC]
+  08  | DealerDistribution             | Supply Chain Simulation     | [MEMORY POINTERS]
+  09  | BusPassengerAllocation         | Dynamic Seating Allocation  | [STACKS & LISTS]
+  10  | IEEE754-Converter              | Floating-Point Synthesizer  | [NUMERICAL ARCH]
+================================================================================
+```
+
+#### `03` &bull; [Social-Saver](https://github.com/furkanndev/Social-Saver) `[SYSTEMS · REVERSE ENGINEERING]`
+> **Anonymous Instagram media stream extraction & bulk packaging pipeline.**  
+> Built with `Python 3.10+`, `Flask 3.x`, `Embedded Webview`, and `REST API Reverse Engineering`.  
+> * **Direct CDN Stream Extraction:** Bypasses client tracking by fetching high-bitrate media URLs with zero read-receipt triggers (`seen = false`).  
+> * **Automated Ingestion:** Captures authentic session cookies via lightweight webview without manual devtools inspection.  
+> * **Bulk ZIP Export:** In-memory streaming compression and packaging into `.zip` archives.  
+> [&rarr; View Repository](https://github.com/furkanndev/Social-Saver)
+
+---
+
+#### `04` &bull; [DirectoryChangeMonitorService](https://github.com/furkanndev/DirectoryChangeMonitorService) `[LINUX DAEMON · POSIX AUDITING]`
+> **Zero-overhead Linux kernel filesystem directory change auditing daemon.**  
+> Built with `Bash 4+`, `Systemd`, `Linux inotify`, and `POSIX Shell`.  
+> * **Zero-Polling Kernel Loop:** Listens to `inotifywait` across 6 POSIX event masks (`modify`, `attrib`, `close_write`, `move`, `create`, `delete`).  
+> * **Atomic Audit Logging:** Formats each trigger with monotonic sequences and ISO timestamps to audit logs.  
+> * **Supervised Service:** Self-healing, auto-restart daemon with boot persistence.  
+> [&rarr; View Repository](https://github.com/furkanndev/DirectoryChangeMonitorService)
+
+---
+
+#### `05` &bull; [NavalStrike](https://github.com/furkanndev/NavalStrike) `[2D GAME ENGINE · OOP ARCHITECTURE]`
+> **Decoupled 2D naval arcade game and real-time event-driven entity simulation.**  
+> Built with `C#`, `.NET Framework`, `Windows Forms`, and `Layered OOP Architecture`.  
+> * **Decoupled Architecture:** Clean separation of domain logic (`Savas.Library`) from presentation UI (`Savas.Desktop`).  
+> * **Interface Segregation:** Movable, damaging, and scoreable entities adhere to strict contracts (`IHareketEden`) and polymorphism.  
+> * **60 FPS Physics:** Dynamic enemy AI spawning, dual ballistic trajectories, and persistent file-backed high scores.  
+> [&rarr; View Repository](https://github.com/furkanndev/NavalStrike)
+
+---
+
+#### `06` &bull; [HiddenObjectsGame](https://github.com/furkanndev/HiddenObjectsGame) `[TACTICAL PUZZLE · PROCEDURAL MATRIX]`
+> **Tactical Cartesian grid deduction game with ANSI terminal rendering.**  
+> Built with `C#`, `.NET Framework`, and `Console Architecture`.  
+> * **Procedural Seeding:** Dynamic 20x20 matrix seeded with 3 multi-segment hidden objects without overlapping.  
+> * **Color-Coded Terminal Buffer:** Unexplored fog-of-war (`X`), target strike (+5 pts, green `1`), and missed shot (-1 pt, red `O`).  
+> * **Lifecycle Processor:** 100-turn session budget with coordinate input validation and statistical accuracy scoring.  
+> [&rarr; View Repository](https://github.com/furkanndev/HiddenObjectsGame)
+
+---
+
+#### `07` &bull; [MatrixManipulator](https://github.com/furkanndev/MatrixManipulator) `[LINEAR ALGEBRA · MODERN C++17]`
+> **High-performance linear algebra and matrix coordinate transformation engine.**  
+> Built with `Modern C++17`, `STL`, and `Algorithms`.  
+> * **Dynamic Generation:** Populates two discrete $5 \times 5$ square matrices with integer scalars $[0, 10]$.  
+> * **In-Place Permutation:** Cartesian coordinate swaps ($A_{ij} \longleftrightarrow B_{ij}$) with zero heap reallocation.  
+> * **Dot Product Engine:** Classical dot product computation $C = A \times B$ in $O(n^3)$ complexity.  
+> [&rarr; View Repository](https://github.com/furkanndev/MatrixManipulator)
+
+---
+
+#### `08` &bull; [DealerDistribution](https://github.com/furkanndev/DealerDistribution) `[SUPPLY CHAIN SIMULATION · MEMORY POINTERS]`
+> **Algorithmic warehouse product allocation and dealer traversal simulation in C++.**  
+> Built with `C++`, `Pointers`, `Stream File I/O`, and `Simulation Logic`.  
+> * **Pointer Tracking:** Manages dealer memory addresses and orders using raw pointers.  
+> * **Structured Serialization:** Automated logging of dealer traversal orders and quantities to `orders.txt`.  
+> * **Inventory Auditing:** Computes real-time warehouse remaining balance display.  
+> [&rarr; View Repository](https://github.com/furkanndev/DealerDistribution)
+
+---
+
+#### `09` &bull; [BusPassengerAllocation](https://github.com/furkanndev/BusPassengerAllocation) `[DATA STRUCTURES · DYNAMIC MEMORY]`
+> **Dynamic tour passenger seating management system implementing custom Stack and List structures.**  
+> Built with `C (GCC)` and `Dynamic Data Structures`.  
+> * **Sequential Allocation:** Row-by-row seat management across dynamic multi-bus quotas (up to 8 buses).  
+> * **Custom Stack & List:** Dynamic Stack handles bus dispatching; Linked List manages individual passenger seats.  
+> * **Structured Reporting:** Automated manifest export and complete dynamic heap memory cleanup.  
+> [&rarr; View Repository](https://github.com/furkanndev/BusPassengerAllocation)
+
+---
+
+#### `10` &bull; [IEEE754-Converter](https://github.com/furkanndev/IEEE754-Converter) `[NUMERICAL SYSTEMS · COMPUTER ARCHITECTURE]`
+> **Low-level numerical IEEE 754 floating-point binary conversion utility.**  
+> Built with `C (GCC)` and `Bitwise Operations`.  
+> * **Dual Precision Support:** Converts arbitrary inputs to 32-bit single precision and 64-bit double precision.  
+> * **Bitwise Extraction:** Direct isolation of sign bit, biased exponent, and normalized mantissa bits.  
+> * **Binary String Synthesis:** Clean formatted IEEE 754 standard binary representation.  
+> [&rarr; View Repository](https://github.com/furkanndev/IEEE754-Converter)
 
 ---
 
