@@ -4,158 +4,203 @@
 
 <div align="center">
 
-  [![Email](https://img.shields.io/badge/Email-ffurkangltkn%40gmail.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:ffurkangltkn@gmail.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com)
-  [![GitHub Followers](https://img.shields.io/github/followers/furkanndev?label=Followers&style=flat-square&logo=github&color=21262d)](https://github.com/furkanndev?tab=followers)
-  [![Profile Views](https://komarev.com/ghpvc/?username=furkanndev&label=Profile%20Views&color=21262d&style=flat-square)](https://github.com/furkanndev)
+  [![Email](https://img.shields.io/badge/COMM_CHANNEL-ffurkangltkn%40gmail.com-141416?style=flat-square&logo=gmail&logoColor=C9A24A)](mailto:ffurkangltkn@gmail.com)
+  [![Portfolio](https://img.shields.io/badge/LIVE_PORTFOLIO-furkanndev.github.io-141416?style=flat-square&logo=safari&logoColor=C9A24A)](https://furkanndev.github.io)
+  [![GitHub Followers](https://img.shields.io/github/followers/furkanndev?label=FOLLOWERS&style=flat-square&logo=github&color=141416&labelColor=141416&logoColor=C9A24A)](https://github.com/furkanndev?tab=followers)
+  [![Profile Views](https://komarev.com/ghpvc/?username=furkanndev&label=RADAR_VIEWS&color=141416&style=flat-square)](https://github.com/furkanndev)
 
   <p align="center">
-    <a href="#about-me">About Me</a> &bull;
-    <a href="#flagship-workstations">Flagship Workstations</a> &bull;
-    <a href="#project-portfolio">Project Portfolio</a> &bull;
-    <a href="#technical-stack--skills">Technical Stack</a> &bull;
-    <a href="#github-telemetry">GitHub Telemetry</a>
+    <a href="#00-dispatch"><code>00 · DISPATCH</code></a> &bull;
+    <a href="#01-currently"><code>01 · CURRENTLY</code></a> &bull;
+    <a href="#02-flagships"><code>02 · FLAGSHIPS</code></a> &bull;
+    <a href="#03-works"><code>03 · WORKS</code></a> &bull;
+    <a href="#04-stack"><code>04 · STACK</code></a> &bull;
+    <a href="#05-telemetry"><code>05 · TELEMETRY</code></a> &bull;
+    <a href="#06-contact"><code>06 · CONTACT</code></a>
   </p>
 
 </div>
 
----
-
-### About Me
-
-I am **Furkan Gültekin**, a **Software Developer** dedicated to engineering high-performance desktop applications, system utilities, and robust automation solutions.
-
-- **Flagship Products:**
-  - Creator and maintainer of **[AuraPDF Pro](https://github.com/furkanndev/AuraPDF)** — an Acrobat-grade, multi-tabbed Windows desktop PDF platform featuring direct in-page text editing, PyMuPDF engine, digital signatures, AcroForms, and format conversion pipelines.
-  - Creator and maintainer of **[Keystone](https://github.com/furkanndev/KeyStone)** — an automated post-installation Windows workstation setup suite featuring 140+ software package deployment via Winget, registry optimizations, and pre/post-format migration pipelines.
-- **Core Competencies:** Desktop Application Architecture (Qt/PyQt6, C#/.NET, Modern C++), Win32 API & Linux systemd daemons, API reverse engineering, and low-level data structures.
-- **Full Lifecycle Engineering:** System design, UI/UX implementation, standalone compilation (`.exe` via Inno Setup 6 / PyInstaller), and CI/CD pipelines.
-- **Academic Background:** Sakarya University &bull; B.S. in Information Systems Engineering.
-- **Contact:** Reach me directly at **[ffurkangltkn@gmail.com](mailto:ffurkangltkn@gmail.com)**.
+<div align="center">
+  <sub>
+    <code>● BROADCAST TAPE:</code>
+    <code>AURA PDF PRO v2.2.3 RELEASED</code> &bull;
+    <code>KEYSTONE WORKSTATION DEPLOYMENT SUITE</code> &bull;
+    <code>IN-PAGE PDF CANVAS ENGINE</code> &bull;
+    <code>ANONYMOUS CDN STREAM EXTRACTION</code> &bull;
+    <code>LINUX KERNEL INOTIFY DAEMONS</code> &bull;
+    <code>LOW-LEVEL NUMERICAL SYSTEMS</code>
+  </sub>
+</div>
 
 ---
 
-### Flagship Workstations
+<a id="00-dispatch"></a>
+### `00 · DISPATCH` &mdash; Software Architecture & Systems
 
-| Project | Tech Stack | Description | Key Capabilities |
-| :--- | :--- | :--- | :--- |
-| **[AuraPDF Pro](https://github.com/furkanndev/AuraPDF)**<br><code>v2.2.3</code> &bull; <code>Win x64</code> | `Python 3.10+`<br>`PyQt6` `PyMuPDF`<br>`Inno Setup 6` `ONNX OCR` | Acrobat-grade Windows desktop PDF platform built for speed, offline privacy, and intensive document workflows. | • Direct on-canvas text editing & typography reflow<br>• Sandwich OCR & AcroForm validation<br>• Word, Excel, PPTX & ePub export pipelines<br>• Standalone installer (`.exe`) via Inno Setup 6 |
-| **[Keystone](https://github.com/furkanndev/KeyStone)**<br><code>v1.0</code> &bull; <code>Win x64</code> | `Python 3.11+`<br>`PyQt6` `Win32 API`<br>`Winget` `PyInstaller` | Unified post-installation Windows workstation setup suite, package deployment, registry optimizer, and migration utility. | • Automated silent deployment of 140+ software packages<br>• Real-time registry optimizations with 1-click rollback<br>• Full browser, SSH, Git & VS Code migration manifests<br>• Isolated multi-profile workspaces |
+> *"Stop relying on bloated web wrappers. Start building high-performance, native systems that actually work."*
 
----
+I am **Furkan Gültekin**, a **Software Developer & Desktop Architect** specializing in low-latency native applications, background system daemon services, reverse-engineered network pipelines, and automated workstation deployments.
 
-### Project Portfolio
-
-#### Desktop Applications & Systems
-
-| Project | Tech Stack | Description | Key Capabilities |
-| :--- | :--- | :--- | :--- |
-| **[Social-Saver](https://github.com/furkanndev/Social-Saver)**<br><code>v1.0</code> &bull; <code>Desktop/Web</code> | `Python` `Flask 3.x`<br>`Reverse Eng`<br>`REST API` `Webview` | Anonymous Instagram story, highlight, and original-resolution profile media viewer and bulk exporter. | • 100% anonymous CDN stream extraction (`seen = false`)<br>• Automated session token capture via embedded webview<br>• Streaming bulk `.zip` archive export & 1080p+ pan/zoom |
-| **[DirectoryChangeMonitor](https://github.com/furkanndev/DirectoryChangeMonitorService)**<br><code>Linux Daemon</code> | `Bash 4+` `Systemd`<br>`Linux inotify`<br>`POSIX Shell` | Zero-overhead Linux background daemon persistently auditing real-time filesystem directory events. | • Non-polling kernel event loops via `inotifywait`<br>• Real-time logging across 6 POSIX event categories<br>• Supervised `systemd` service with boot persistence |
-
-#### Game Engines & Interactive OOP
-
-| Project | Tech Stack | Description | Key Capabilities |
-| :--- | :--- | :--- | :--- |
-| **[NavalStrike](https://github.com/furkanndev/NavalStrike)**<br><code>2D Arcade Engine</code> | `C#` `.NET`<br>`Windows Forms`<br>`Layered OOP` | Interactive 2D naval arcade game demonstrating decoupled domain architecture and real-time entity simulation. | • Decoupled domain engine (`Savas.Library`) & presentation UI<br>• Interface contracts (`IHareketEden`) & polymorphism<br>• 60 FPS loop, dynamic enemy AI & persistent high scores |
-| **[HiddenObjectsGame](https://github.com/furkanndev/HiddenObjectsGame)**<br><code>Procedural Search</code> | `C#` `.NET`<br>`Console Architecture`<br>`Procedural Seeding` | Tactical grid search and deduction puzzle game featuring procedural matrix generation and ANSI rendering. | • Dynamic 20x20 Cartesian grid with hidden multi-segment targets<br>• Algorithmic collision-free procedural object placement<br>• Color-coded terminal fog-of-war buffer & accuracy scoring |
-
-#### Algorithms, Data Structures & Low-Level Computing
-
-| Project | Tech Stack | Description | Key Capabilities |
-| :--- | :--- | :--- | :--- |
-| **[MatrixManipulator](https://github.com/furkanndev/MatrixManipulator)**<br><code>Modern C++17</code> | `Modern C++17`<br>`STL` `Algorithms`<br>`Linear Algebra` | High-performance linear algebra engine for randomized square matrix generation and Cartesian transformations. | • Dynamic $5 \times 5$ matrix generation with bounded RNG<br>• In-place coordinate scalar permutations ($A_{ij} \longleftrightarrow B_{ij}$)<br>• Classical dot product calculations ($O(n^3)$) with zero reallocation |
-| **[DealerDistribution](https://github.com/furkanndev/DealerDistribution)**<br><code>C++ Simulation</code> | `C++` `Pointers`<br>`Simulation`<br>`Stream File I/O` | Algorithmic warehouse supply chain simulation managing randomized dealer traversal and product allocation. | • Memory address pointer tracking & structured file persistence<br>• Algorithmic randomized dealer traversal sequencing<br>• Real-time warehouse balance verification & auditing |
-| **[BusPassengerAllocation](https://github.com/furkanndev/BusPassengerAllocation)**<br><code>Data Structures</code> | `C` `GCC`<br>`Data Structures`<br>`Stack & List` | Dynamic tour passenger seating management system implementing custom Stack and List data structures. | • Sequential row-by-row seat allocation across multi-bus fleets<br>• Custom dynamic Stack allocation & linked list seat storage<br>• Structured passenger manifest reporting and memory cleanup |
-| **[IEEE754-Converter](https://github.com/furkanndev/IEEE754-Converter)**<br><code>Systems Computing</code> | `C` `GCC`<br>`Computer Systems`<br>`Bitwise Operations` | Numerical precision conversion utility synthesizing binary floating-point IEEE 754 representations. | • Single (32-bit float) and double (64-bit double) precision support<br>• Low-level bitwise sign, exponent, and mantissa extraction<br>• Formatted IEEE 754 standard binary string rendering |
+* **Engineering Philosophy:** Clean decoupled abstractions, mechanical verification gates, zero-telemetry offline privacy, and native execution over electron/webview bloat.
+* **Flagship Maintainer:**
+  * **[AuraPDF Pro](https://github.com/furkanndev/AuraPDF)** &mdash; Adobe Acrobat-grade Windows PDF workstation with on-canvas direct text editing, PyMuPDF engine, digital signatures, AcroForms, and format conversion pipelines.
+  * **[Keystone](https://github.com/furkanndev/KeyStone)** &mdash; Post-installation Windows deployment suite with 140+ Winget silent package installer, Win32 registry optimizer, and workstation migration manifests.
+* **Academic Foundation:** B.S. in Information Systems Engineering.
+* **Direct Transmission:** **[ffurkangltkn@gmail.com](mailto:ffurkangltkn@gmail.com)** &bull; **[furkanndev.github.io](https://furkanndev.github.io)**
 
 ---
 
-### Technical Stack & Skills
+<a id="01-currently"></a>
+### `01 · CURRENTLY` &mdash; What's Happening Now
+
+| Signal | Focus Area | Status & Milestone |
+| :---: | :--- | :--- |
+| `[LIVE]` | **[AuraPDF Pro v2.2.3](https://github.com/furkanndev/AuraPDF)** | Deployed standalone installer (`.exe`) via Inno Setup 6; verified on-canvas text editing, sandwich OCR, and AcroForm fill/serialization pipelines. |
+| `[STABLE]` | **[Keystone Suite](https://github.com/furkanndev/KeyStone)** | Finalized curated 140+ software package database, real-time registry state validator (`HKCU`/`HKLM`), and automated browser bookmark/Wi-Fi exporter. |
+| `[ACTIVE]` | **[Social-Saver](https://github.com/furkanndev/Social-Saver)** | Zero-receipt CDN stream interceptor (`seen = false`) with automated webview session token persistence and bulk `.zip` exporter. |
+| `[SYSTEMS]` | **[Linux Daemon & C++](https://github.com/furkanndev/DirectoryChangeMonitorService)** | Actively maintaining kernel inotify filesystem event auditing service alongside modern C++17 algorithmic coordinate engines. |
+
+---
+
+<a id="02-flagships"></a>
+### `02 · FLAGSHIPS` &mdash; Production Desktop Workstations
+
+#### 01 / AuraPDF Pro &mdash; `High-Performance Desktop PDF Workstation`
+
+> *"Acrobat-grade precision without telemetry, subscriptions, or bloat."*
+
+[![Release v2.2.3](https://img.shields.io/badge/RELEASE-v2.2.3_PRO-141416?style=flat-square&logo=github&logoColor=C9A24A)](https://github.com/furkanndev/AuraPDF)
+[![Platform](https://img.shields.io/badge/PLATFORM-Windows_x64-141416?style=flat-square&logo=windows&logoColor=C9A24A)](https://github.com/furkanndev/AuraPDF)
+[![License](https://img.shields.io/badge/LICENSE-Open_Source-141416?style=flat-square&logoColor=C9A24A)](https://github.com/furkanndev/AuraPDF)
+
+* **Architecture:** `Python 3.10+` &bull; `PyQt6 Native` &bull; `PyMuPDF 2.0 (C++ Engine)` &bull; `ONNX / RapidOCR` &bull; `Inno Setup 6` &bull; `Win x64`
+* **Core Engineering & Capabilities:**
+  * **Direct On-Canvas Text Editing:** Select, mutate, re-font, resize, and reflow text blocks directly on PDF pages in real time without external conversion.
+  * **Sandwich OCR Engine:** Generates an invisible, coordinate-aligned searchable text layer behind scanned bitmap documents without degrading visual quality.
+  * **Document Conversion Pipelines:** Automated export to Microsoft Word (`.docx`), Excel (`.xlsx`), PowerPoint (`.pptx`), and reflowable `.epub`.
+  * **Security & Form Serialization:** Digital stylus signatures, official PNG stamps, bidirectional AcroForms, Bates numbering, and permanent black-out redaction.
+  * **Production Windows Installer:** Standalone single-click installer (`.exe`) compiled via Inno Setup 6 with complete runtime dependencies.
+* **Repository:** **[github.com/furkanndev/AuraPDF &rarr;](https://github.com/furkanndev/AuraPDF)**
+
+---
+
+#### 02 / Keystone &mdash; `Automated Windows Deployment & Optimization Platform`
+
+> *"Zero-friction workstation onboarding for fresh Windows 10 & 11 environments."*
+
+[![Version 1.0](https://img.shields.io/badge/VERSION-v1.0_STABLE-141416?style=flat-square&logo=github&logoColor=C9A24A)](https://github.com/furkanndev/KeyStone)
+[![Platform](https://img.shields.io/badge/PLATFORM-Windows_10_/_11-141416?style=flat-square&logo=windows&logoColor=C9A24A)](https://github.com/furkanndev/KeyStone)
+[![Engine](https://img.shields.io/badge/ENGINE-Winget_+_Win32-141416?style=flat-square&logoColor=C9A24A)](https://github.com/furkanndev/KeyStone)
+
+* **Architecture:** `Python 3.11+` &bull; `PyQt6` &bull; `Win32 API` &bull; `Winget Integration` &bull; `Windows Registry` &bull; `PyInstaller` &bull; `Win x64`
+* **Core Engineering & Capabilities:**
+  * **140+ Silent Deployments:** Automated silent package retrieval across essential runtimes, developer toolchains, browsers, and utilities via Winget.
+  * **Validated Registry Tweaks:** Reclaims taskbar end-task, legacy context menus, and debloats telemetry with real-time `[Active]/[Disabled]` inspection and one-click rollback.
+  * **Pre/Post-Format Migration:** Exports browser bookmarks, Wi-Fi passwords, SSH keys, `.gitconfig`, PowerShell profiles, and VS Code configurations into executable deployment manifests.
+  * **Multi-Profile Isolation:** Independent workspace configurations (`Developer Setup`, `Gaming Rig`, `Clean Workstation`) with portable persistence.
+* **Repository:** **[github.com/furkanndev/KeyStone &rarr;](https://github.com/furkanndev/KeyStone)**
+
+---
+
+<a id="03-works"></a>
+### `03 · WORKS` &mdash; Repository Directory & Systems Builds
+
+| Index | Repository | Domain & Architecture | Core Stack | Key Capabilities & Architecture |
+| :---: | :--- | :--- | :--- | :--- |
+| `01` | **[AuraPDF Pro](https://github.com/furkanndev/AuraPDF)**<br><code>FLAGSHIP</code> | Windows PDF Workstation | `Python 3.10+`<br>`PyQt6` `PyMuPDF`<br>`Inno Setup 6` | Direct in-page text editing, sandwich OCR, AcroForms, Word/Excel export, standalone `.exe`. |
+| `02` | **[Keystone](https://github.com/furkanndev/KeyStone)**<br><code>FLAGSHIP</code> | Windows Workstation Setup | `Python 3.11+`<br>`PyQt6` `Win32`<br>`Winget` `PyInstaller` | 140+ silent package deployment, live registry optimization rollback, backup & migration manifests. |
+| `03` | **[Social-Saver](https://github.com/furkanndev/Social-Saver)**<br><code>SYSTEMS</code> | Media Stream Interception | `Python` `Flask 3.x`<br>`Reverse Eng` `Webview` | 100% anonymous CDN extraction (`seen = false`), automated session token capture, bulk `.zip` export. |
+| `04` | **[DirectoryChangeMonitor](https://github.com/furkanndev/DirectoryChangeMonitorService)**<br><code>DAEMON</code> | Linux Filesystem Auditing | `Bash 4+` `Systemd`<br>`Linux inotify` | Zero-polling kernel event loops via `inotifywait`, atomic audit logging across 6 POSIX event masks. |
+| `05` | **[NavalStrike](https://github.com/furkanndev/NavalStrike)**<br><code>ARCADE</code> | 2D Naval Physics Engine | `C#` `.NET`<br>`WinForms` `OOP` | Decoupled domain engine (`Savas.Library`) and presentation UI, interface contracts, 60 FPS loop. |
+| `06` | **[HiddenObjectsGame](https://github.com/furkanndev/HiddenObjectsGame)**<br><code>TACTICAL</code> | Procedural Grid Search | `C#` `.NET`<br>`Procedural` `ANSI` | Dynamic 20x20 Cartesian grid, algorithmic collision-free object seeding, color-coded fog of war. |
+| `07` | **[MatrixManipulator](https://github.com/furkanndev/MatrixManipulator)**<br><code>ALGORITHMS</code> | Linear Algebra Engine | `Modern C++17`<br>`STL` `Algorithms` | Randomized 5x5 square matrix generation, in-place coordinate swaps ($A_{ij} \longleftrightarrow B_{ij}$), dot products ($O(n^3)$). |
+| `08` | **[DealerDistribution](https://github.com/furkanndev/DealerDistribution)**<br><code>SIMULATION</code> | Supply Chain Traversal | `C++` `Pointers`<br>`File I/O` `Streams` | Memory address pointer tracking with structured file serialization (`orders.txt`), randomized dealer traversal. |
+| `09` | **[BusPassengerAllocation](https://github.com/furkanndev/BusPassengerAllocation)**<br><code>STRUCTURES</code> | Tour Seat Allocation | `C` `GCC`<br>`Stack & List` | Sequential row-by-row seating allocation across dynamic multi-bus quotas (up to 8 buses), manifests. |
+| `10` | **[IEEE754-Converter](https://github.com/furkanndev/IEEE754-Converter)**<br><code>LOW-LEVEL</code> | Floating-Point Binary Synthesizer | `C` `Bitwise`<br>`Computer Systems` | Single (32-bit float) and double (64-bit double) precision IEEE 754 bitwise extraction & synthesis. |
+
+---
+
+<a id="04-stack"></a>
+### `04 · STACK` &mdash; Technical Compendium
 
 <table>
   <tr>
-    <td width="22%" align="center"><b>Languages</b></td>
+    <td width="24%" align="center"><code>01 / LANGUAGES</code></td>
     <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" />
-      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
-      <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-141416?style=flat-square&logo=python&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/C%23-141416?style=flat-square&logo=csharp&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/C%2B%2B17-141416?style=flat-square&logo=c%2B%2B&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/C-141416?style=flat-square&logo=c&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/Bash-141416?style=flat-square&logo=gnu-bash&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/TypeScript-141416?style=flat-square&logo=typescript&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/JavaScript-141416?style=flat-square&logo=javascript&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/HTML5-141416?style=flat-square&logo=html5&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/CSS3-141416?style=flat-square&logo=css3&logoColor=C9A24A" />
     </td>
   </tr>
   <tr>
-    <td width="22%" align="center"><b>Frameworks & GUI</b></td>
+    <td width="24%" align="center"><code>02 / GUI &amp; DESKTOP</code></td>
     <td>
-      <img src="https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white" />
-      <img src="https://img.shields.io/badge/PyQt%20%2F%20PySide-41CD52?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-      <img src="https://img.shields.io/badge/Windows%20Forms-0078D7?style=flat-square&logo=windows&logoColor=white" />
-      <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-      <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" />
-      <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+      <img src="https://img.shields.io/badge/Qt6-141416?style=flat-square&logo=qt&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/PyQt6-141416?style=flat-square&logo=python&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/.NET_Framework-141416?style=flat-square&logo=dotnet&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/Windows_Forms-141416?style=flat-square&logo=windows&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/Flask_3.x-141416?style=flat-square&logo=flask&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/FastAPI-141416?style=flat-square&logo=fastapi&logoColor=C9A24A" />
     </td>
   </tr>
   <tr>
-    <td width="22%" align="center"><b>Systems & Automation</b></td>
+    <td width="24%" align="center"><code>03 / SYSTEMS &amp; WIN32</code></td>
     <td>
-      <img src="https://img.shields.io/badge/Linux%20Systemd-FCC624?style=flat-square&logo=linux&logoColor=black" />
-      <img src="https://img.shields.io/badge/Kernel%20inotify-21262d?style=flat-square&logo=linux&logoColor=white" />
-      <img src="https://img.shields.io/badge/Reverse%20Engineering-blue?style=flat-square" />
-      <img src="https://img.shields.io/badge/PyMuPDF-D9381E?style=flat-square" />
-      <img src="https://img.shields.io/badge/RapidOCR%20%2F%20ONNX-38B2AC?style=flat-square" />
-      <img src="https://img.shields.io/badge/Win32%20API-0078D7?style=flat-square&logo=windows&logoColor=white" />
-      <img src="https://img.shields.io/badge/Windows%20Registry-0078D7?style=flat-square&logo=windows&logoColor=white" />
-      <img src="https://img.shields.io/badge/Winget%20CLI-0078D7?style=flat-square&logo=windows-terminal&logoColor=white" />
+      <img src="https://img.shields.io/badge/Win32_API-141416?style=flat-square&logo=windows&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/Windows_Registry-141416?style=flat-square&logo=windows&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/Winget_CLI-141416?style=flat-square&logo=windows-terminal&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/Linux_Systemd-141416?style=flat-square&logo=linux&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/Kernel_inotify-141416?style=flat-square&logo=linux&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/PyMuPDF_Engine-141416?style=flat-square&logo=c%2B%2B&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/ONNX_Runtime-141416?style=flat-square&logo=onnx&logoColor=C9A24A" />
     </td>
   </tr>
   <tr>
-    <td width="22%" align="center"><b>DevOps & Tools</b></td>
+    <td width="24%" align="center"><code>04 / TOOLING &amp; DEVOPS</code></td>
     <td>
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-      <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-      <img src="https://img.shields.io/badge/PyInstaller-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Inno%20Setup%206-0078D7?style=flat-square&logo=windows&logoColor=white" />
-      <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
-      <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
-      <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visual-studio&logoColor=white" />
+      <img src="https://img.shields.io/badge/Git-141416?style=flat-square&logo=git&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-141416?style=flat-square&logo=github-actions&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/Inno_Setup_6-141416?style=flat-square&logo=windows&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/PyInstaller-141416?style=flat-square&logo=python&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/Docker-141416?style=flat-square&logo=docker&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/Visual_Studio-141416?style=flat-square&logo=visual-studio&logoColor=C9A24A" />
     </td>
   </tr>
   <tr>
-    <td width="22%" align="center"><b>Databases</b></td>
+    <td width="24%" align="center"><code>05 / DATA STORES</code></td>
     <td>
-      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-      <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC292B?style=flat-square&logo=microsoft-sql-server&logoColor=white" />
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+      <img src="https://img.shields.io/badge/SQLite-141416?style=flat-square&logo=sqlite&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/PostgreSQL-141416?style=flat-square&logo=postgresql&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/SQL_Server-141416?style=flat-square&logo=microsoft-sql-server&logoColor=C9A24A" />
+      <img src="https://img.shields.io/badge/Redis-141416?style=flat-square&logo=redis&logoColor=C9A24A" />
     </td>
   </tr>
 </table>
 
 ---
 
-### GitHub Telemetry
+<a id="05-telemetry"></a>
+### `05 · TELEMETRY` &mdash; Telemetry & GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=furkanndev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117" alt="Furkan's GitHub Stats" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=furkanndev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" width="45%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=furkanndev&show_icons=true&bg_color=08080a&title_color=ebd79b&text_color=ede8df&icon_color=c9a24a&border_color=c9a24a&hide_border=false&include_all_commits=true&count_private=true" alt="Furkan's GitHub Stats" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=furkanndev&layout=compact&bg_color=08080a&title_color=ebd79b&text_color=ede8df&border_color=c9a24a&hide_border=false" alt="Top Languages" width="45%" />
 </div>
 
 <div align="center" style="margin-top: 15px;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=furkanndev&theme=tokyonight&hide_border=true&background=0d1117" alt="Streak Stats" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=furkanndev&theme=dark&background=08080a&stroke=c9a24a&ring=c9a24a&fire=c9a24a&currStreakNum=ebd79b&sideNums=ede8df&currStreakLabel=c9a24a&sideLabels=c9a24a&border=c9a24a" alt="Streak Stats" width="49%" />
 </div>
 
 ---
 
-### Contribution Activity
+### `05b · RADAR` &mdash; Activity Pipeline
 
 <div align="center">
   <picture>
@@ -167,6 +212,30 @@ I am **Furkan Gültekin**, a **Software Developer** dedicated to engineering hig
 
 ---
 
+<a id="06-contact"></a>
+### `06 · CONTACT` &mdash; Dispatch & Communications
+
+```text
+================================================================================
+CHANNEL:  01 · SYSTEM DIRECTORY
+CALLSIGN: FURKAN GÜLTEKİN
+DOMAIN:   DESKTOP WORKSTATIONS & SYSTEMS ARCHITECTURE
+DIRECT:   ffurkangltkn@gmail.com
+WEB:      https://furkanndev.github.io
+STATUS:   OPEN FOR HIGH-IMPACT SYSTEMS & SOFTWARE COLLABORATION
+================================================================================
+```
+
 <div align="center">
-  <sub>Furkan Gültekin &bull; Software Developer &bull; Desktop Architecture &amp; Systems</sub>
+
+  [![Send Transmission](https://img.shields.io/badge/INITIATE_TRANSMISSION-ffurkangltkn%40gmail.com-141416?style=for-the-badge&logo=gmail&logoColor=C9A24A&labelColor=141416)](mailto:ffurkangltkn@gmail.com)
+  [![Live Portfolio](https://img.shields.io/badge/LIVE_PORTFOLIO-furkanndev.github.io-141416?style=for-the-badge&logo=safari&logoColor=C9A24A&labelColor=141416)](https://furkanndev.github.io)
+  [![GitHub Profile](https://img.shields.io/badge/GITHUB-@furkanndev-141416?style=for-the-badge&logo=github&logoColor=C9A24A&labelColor=141416)](https://github.com/furkanndev)
+
+</div>
+
+---
+
+<div align="center">
+  <sub><code>CH 01 · BROADCAST END</code> &bull; Furkan Gültekin &bull; Desktop Architecture &amp; Systems Engineering</sub>
 </div>
