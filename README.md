@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/furkanndev/furkanndev/main/assets/header.svg?v=2" width="100%" alt="Furkan Gültekin — Software Developer & Desktop Architect" />
+  <img src="https://raw.githubusercontent.com/furkanndev/furkanndev/main/assets/header.svg" width="100%" alt="Furkan Gültekin — Software Developer & Desktop Architect" />
 </div>
 
 <div align="center">
