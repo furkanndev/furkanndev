@@ -233,11 +233,6 @@ Unified post-installation Windows workstation setup suite, package deployment en
     <td><a href="https://furkanndev.github.io"><b>furkanndev.github.io</b></a> &mdash; <i>Live interactive portfolio & architecture station</i></td>
     <td align="right"><code>visit &nearr;</code></td>
   </tr>
-  <tr>
-    <td width="20%"><code>GITHUB</code></td>
-    <td><a href="https://github.com/furkanndev"><b>@furkanndev</b></a> &mdash; <i>Repositories, source builds & engineering activity</i></td>
-    <td align="right"><code>profile &nearr;</code></td>
-  </tr>
 </table>
 
 ---
