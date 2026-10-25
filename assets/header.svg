@@ -1,13 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="100%" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradients -->
+    <!-- Background Void Gradients -->
     <linearGradient id="voidGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#08080A" />
       <stop offset="45%" stop-color="#0C0C10" />
       <stop offset="100%" stop-color="#08080A" />
     </linearGradient>
 
-    <!-- Brass Gradient -->
+    <!-- Metallic Brass Gradient -->
     <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#C9A24A" />
       <stop offset="35%" stop-color="#F5E4B3" />
@@ -26,11 +27,6 @@
     <pattern id="crtGrid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(237,232,223,0.035)" stroke-width="0.75" />
     </pattern>
-
-    <!-- Broadcast Indicator Glow -->
-    <filter id="recGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#FF3B30" flood-opacity="0.9" />
-    </filter>
   </defs>
 
   <style>
@@ -67,12 +63,13 @@
   <circle cx="878" cy="298" r="2.5" fill="#EBD79B" opacity="0.9" />
 
   <!-- TOP HEADER RAIL -->
-  <text x="32" y="38" class="mono" font-size="11.5" font-weight="600" fill="#C9A24A" letter-spacing="2.5">FURKAN GÜLTEKİN</text>
-  <text x="186" y="38" class="mono" font-size="11" font-weight="400" fill="rgba(237,232,223,0.5)" letter-spacing="2">&mdash; SOFTWARE DEVELOPER &amp; DESKTOP ARCHITECT</text>
+  <text x="32" y="38" class="mono" font-size="11.5" font-weight="600" fill="#C9A24A" letter-spacing="2.5">FURKAN G&#220;LTEK&#304;N</text>
+  <text x="186" y="38" class="mono" font-size="11" font-weight="400" fill="rgba(237,232,223,0.5)" letter-spacing="2">&#8212; SOFTWARE DEVELOPER &amp; DESKTOP ARCHITECT</text>
 
   <!-- Live On-Air Broadcast Indicator Bug -->
-  <circle cx="698" cy="34" r="4.5" fill="#FF3B30" filter="url(#recGlow)" />
-  <text x="712" y="38" class="mono" font-size="10.5" font-weight="600" fill="#EBD79B" letter-spacing="2.2">CH 01 · BROADCAST ACTIVE</text>
+  <circle cx="698" cy="34" r="8" fill="#FF3B30" opacity="0.25" />
+  <circle cx="698" cy="34" r="4.5" fill="#FF3B30" />
+  <text x="712" y="38" class="mono" font-size="10.5" font-weight="600" fill="#EBD79B" letter-spacing="2.2">CH 01 &#183; BROADCAST ACTIVE</text>
 
   <!-- Top Divider Line -->
   <line x1="24" y1="52" x2="876" y2="52" stroke="rgba(201,162,74,0.3)" stroke-width="1" />
@@ -95,10 +92,10 @@
 
   <!-- BOTTOM STATUS RAIL -->
   <text x="32" y="295" class="mono" font-size="11" font-weight="600" fill="#EBD79B" letter-spacing="2">
-    10 REPOSITORIES · 2 PRODUCTION FLAGSHIPS
+    10 REPOSITORIES &#183; 2 PRODUCTION FLAGSHIPS
   </text>
 
   <text x="440" y="295" class="mono" font-size="11" font-weight="500" fill="rgba(237,232,223,0.6)" letter-spacing="1.5">
-    STACK: C++17 · C# / .NET · PYTHON 3.11 · WIN32 · LINUX
+    STACK: C++17 &#183; C# / .NET &#183; PYTHON 3.11 &#183; WIN32 &#183; LINUX
   </text>
 </svg>
