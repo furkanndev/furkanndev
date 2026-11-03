@@ -18,15 +18,17 @@
 
 <div align="center">
   <sub>
+    <!-- BROADCAST_TAPE:START -->
     <code>● BROADCAST TAPE:</code>
-    <code>AURAPDF PRO v2.2.4</code> &bull;
-    <code>KEYSTONE WORKSTATION DEPLOYMENT v2.0.1</code> &bull;
+    <code>AURAPDF PRO v2.2.7</code> &bull;
+    <code>KEYSTONE WORKSTATION DEPLOYMENT v3.0.2</code> &bull;
     <code>IN-PAGE PDF CANVAS ENGINE</code> &bull;
     <code>WIN32 REGISTRY HOOKS</code> &bull;
     <code>SANDWICH OCR</code> &bull;
     <code>LINUX INOTIFY DAEMON</code> &bull;
     <code>REVERSE-ENGINEERED CDN EXTRACTION</code> &bull;
     <code>C++17 COORDINATE ALGORITHMS</code>
+    <!-- BROADCAST_TAPE:END -->
   </sub>
 </div>
 
@@ -51,12 +53,14 @@ I am **Furkan Gültekin**, a **Software Developer & Desktop Architect** speciali
 <a id="01-currently"></a>
 ### `01 · CURRENTLY` &mdash; What's Happening Now
 
+<!-- CURRENTLY:START -->
 | Signal | Focus Area | What's Shipped & Active |
 | :---: | :--- | :--- |
-| `[LIVE]` | **[AuraPDF Pro v2.2.4](https://github.com/furkanndev/AuraPDF)** | Standalone installer (`.exe`) deployed via Inno Setup 6; verified on-canvas direct text mutation, coordinate-aligned sandwich OCR, and AcroForm fill/serialization pipelines. |
-| `[STABLE]` | **[Keystone Suite v2.0.1](https://github.com/furkanndev/KeyStone)** | Finalized curated 140+ software package database, real-time registry state validator (`HKCU`/`HKLM`), and automated workstation migration manifests. |
+| `[LIVE]` | **[AuraPDF Pro v2.2.7](https://github.com/furkanndev/AuraPDF)** | Standalone installer (`.exe`) deployed via Inno Setup 6; verified on-canvas direct text mutation, coordinate-aligned sandwich OCR, and AcroForm fill/serialization pipelines. |
+| `[STABLE]` | **[Keystone Suite v3.0.2](https://github.com/furkanndev/KeyStone)** | Finalized curated 140+ software package database, real-time registry state validator (`HKCU`/`HKLM`), and automated workstation migration manifests. |
 | `[ACTIVE]` | **[Social-Saver](https://github.com/furkanndev/Social-Saver)** | Zero-receipt CDN stream interceptor (`seen = false`) with automated webview session token persistence and in-memory streaming `.zip` exporter. |
 | `[DAEMON]` | **[DirectoryChangeMonitor](https://github.com/furkanndev/DirectoryChangeMonitorService)** | Supervised Linux systemd background daemon auditing filesystem mutations with zero polling overhead via kernel `inotifywait`. |
+<!-- CURRENTLY:END -->
 
 ---
 
@@ -97,8 +101,9 @@ Unified post-installation Windows workstation setup suite, package deployment en
 ---
 
 <a id="03-works"></a>
-### `03 · WORKS` &mdash; Things I've Built (All 10 Repositories)
+### `03 · WORKS` &mdash; Things I've Built (<!-- WORKS_COUNT:START -->All 10 Repositories<!-- WORKS_COUNT:END -->)
 
+<!-- WORKS_TABLE:START -->
 | Index | Repository & Domain | Core Stack | Key Capabilities & Architecture |
 | :---: | :--- | :--- | :--- |
 | `01` | **[AuraPDF Pro](https://github.com/furkanndev/AuraPDF)**<br><code>FLAGSHIP</code> | `Python 3.10+`<br>`PyQt6` `PyMuPDF`<br>`Inno Setup 6` | Direct in-page text editing, sandwich OCR, AcroForms, Word/Excel export, standalone `.exe`. |
@@ -111,6 +116,7 @@ Unified post-installation Windows workstation setup suite, package deployment en
 | `08` | **[DealerDistribution](https://github.com/furkanndev/DealerDistribution)**<br><code>SIMULATION</code> | `C++` `Pointers`<br>`File I/O` `Streams` | Memory address pointer tracking with structured file serialization (`orders.txt`), randomized dealer traversal. |
 | `09` | **[BusPassengerAllocation](https://github.com/furkanndev/BusPassengerAllocation)**<br><code>STRUCTURES</code> | `C` `GCC`<br>`Stack & List` | Sequential row-by-row seating allocation across dynamic multi-bus quotas (up to 8 buses), manifests. |
 | `10` | **[IEEE754-Converter](https://github.com/furkanndev/IEEE754-Converter)**<br><code>LOW-LEVEL</code> | `C` `Bitwise`<br>`Computer Systems` | Single (32-bit float) and double (64-bit double) precision IEEE 754 bitwise extraction & synthesis. |
+<!-- WORKS_TABLE:END -->
 
 ---
 
@@ -185,10 +191,12 @@ Unified post-installation Windows workstation setup suite, package deployment en
 
 <div align="center">
   <sub>
+    <!-- TELEMETRY_STATS:START -->
     <code>10 REPOSITORIES</code> &bull;
     <code>2 PRODUCTION FLAGSHIPS</code> &bull;
-    <code>4 CORE LANGUAGES</code> &bull;
+    <code>5 CORE LANGUAGES</code> &bull;
     <code>100% OFFLINE PRIVACY</code>
+    <!-- TELEMETRY_STATS:END -->
   </sub>
 </div>
 
