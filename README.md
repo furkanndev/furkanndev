@@ -101,7 +101,7 @@ Unified post-installation Windows workstation setup suite, package deployment en
 ---
 
 <a id="03-works"></a>
-### `03 · WORKS` &mdash; Things I've Built (<!-- WORKS_COUNT:START -->All 10 Repositories<!-- WORKS_COUNT:END -->)
+### `03 · WORKS` &mdash; Things I've Built (<!-- WORKS_COUNT:START -->All 11 Repositories<!-- WORKS_COUNT:END -->)
 
 <!-- WORKS_TABLE:START -->
 | Index | Repository & Domain | Core Stack | Key Capabilities & Architecture |
@@ -116,6 +116,7 @@ Unified post-installation Windows workstation setup suite, package deployment en
 | `08` | **[DealerDistribution](https://github.com/furkanndev/DealerDistribution)**<br><code>SIMULATION</code> | `C++` `Pointers`<br>`File I/O` `Streams` | Memory address pointer tracking with structured file serialization (`orders.txt`), randomized dealer traversal. |
 | `09` | **[BusPassengerAllocation](https://github.com/furkanndev/BusPassengerAllocation)**<br><code>STRUCTURES</code> | `C` `GCC`<br>`Stack & List` | Sequential row-by-row seating allocation across dynamic multi-bus quotas (up to 8 buses), manifests. |
 | `10` | **[IEEE754-Converter](https://github.com/furkanndev/IEEE754-Converter)**<br><code>LOW-LEVEL</code> | `C` `Bitwise`<br>`Computer Systems` | Single (32-bit float) and double (64-bit double) precision IEEE 754 bitwise extraction & synthesis. |
+| `11` | **[Enclave](https://github.com/furkanndev/Enclave)**<br><code>PROJECT</code> | `Python`<br><code>GitHub</code> | Public repository. |
 <!-- WORKS_TABLE:END -->
 
 ---
@@ -192,7 +193,7 @@ Unified post-installation Windows workstation setup suite, package deployment en
 <div align="center">
   <sub>
     <!-- TELEMETRY_STATS:START -->
-    <code>10 REPOSITORIES</code> &bull;
+    <code>11 REPOSITORIES</code> &bull;
     <code>2 PRODUCTION FLAGSHIPS</code> &bull;
     <code>5 CORE LANGUAGES</code> &bull;
     <code>100% OFFLINE PRIVACY</code>
