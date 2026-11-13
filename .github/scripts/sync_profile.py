@@ -99,6 +99,29 @@ def github_get(url: str, token: Optional[str] = None) -> Any:
         print(f"[!] Request error: {e} on: {url}")
         return None
 
+def fetch_readme_summary(name: str) -> str:
+    """First real prose line of a repo README, used when the repo has no description."""
+    url = f"https://raw.githubusercontent.com/{USERNAME}/{name}/HEAD/README.md"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "furkanndev-profile-sync"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            text = resp.read().decode("utf-8", errors="replace")
+    except Exception:
+        return ""
+    in_code = False
+    for raw in text.splitlines():
+        if raw.strip().startswith("```"):
+            in_code = not in_code
+            continue
+        if in_code or re.match(r"^\s*(<|!\[|\||\[!|---|#)", raw):
+            continue
+        line = re.sub(r"<[^>]+>", "", raw)
+        line = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", line)
+        line = re.sub(r"[*_`>]", "", line).strip()
+        if len(line) >= 40:
+            return line[:160].rstrip() + ("…" if len(line) > 160 else "")
+    return ""
+
 def clean_version(raw_tag: str) -> str:
     cleaned = re.sub(r'^(pro|basic)[_-]?', '', raw_tag.strip(), flags=re.IGNORECASE)
     if not cleaned.lower().startswith('v'):
@@ -126,11 +149,13 @@ def replace_between_markers(content: str, marker_name: str, new_inner: str, inli
         return content[:s_idx + len(start_tag)] + new_inner.strip() + content[e_idx:]
     return content[:s_idx + len(start_tag)] + "\n" + new_inner + "\n" + indent + content[e_idx:]
 
-def build_broadcast_tape(aurapdf_ver: str, keystone_ver: str) -> str:
+def build_broadcast_tape(aurapdf_ver: str, keystone_ver: str, new_names: Optional[List[str]] = None) -> str:
+    new_tape = "".join(f"    <code>NEW: {n.upper()}</code> &bull;\n" for n in (new_names or []))
     return (
         f"    <code>● BROADCAST TAPE:</code>\n"
         f"    <code>AURAPDF PRO {aurapdf_ver}</code> &bull;\n"
         f"    <code>KEYSTONE WORKSTATION DEPLOYMENT {keystone_ver}</code> &bull;\n"
+        f"{new_tape}"
         f"    <code>IN-PAGE PDF CANVAS ENGINE</code> &bull;\n"
         f"    <code>WIN32 REGISTRY HOOKS</code> &bull;\n"
         f"    <code>SANDWICH OCR</code> &bull;\n"
@@ -139,7 +164,20 @@ def build_broadcast_tape(aurapdf_ver: str, keystone_ver: str) -> str:
         f"    <code>C++17 COORDINATE ALGORITHMS</code>"
     )
 
-def build_currently_table(aurapdf_ver: str, keystone_ver: str) -> str:
+def build_new_rows(repos: List[Dict[str, Any]], limit: int = 2) -> str:
+    """Newest non-curated repositories (API order is most recently pushed first)."""
+    rows = []
+    for r in repos:
+        if r["name"] in CURATED_PROJECTS:
+            continue
+        desc = (r.get("description") or r.get("summary") or "Recently published repository.").replace("|", "\\|")
+        lang = f" ({r['language']})" if r.get("language") else ""
+        rows.append(f"| `[NEW]` | **[{r['name']}](https://github.com/{USERNAME}/{r['name']})** | {desc}{lang} |")
+        if len(rows) >= limit:
+            break
+    return ("\n" + "\n".join(rows)) if rows else ""
+
+def build_currently_table(aurapdf_ver: str, keystone_ver: str, extra_rows: str = "") -> str:
     return (
         "| Signal | Focus Area | What's Shipped & Active |\n"
         "| :---: | :--- | :--- |\n"
@@ -147,6 +185,7 @@ def build_currently_table(aurapdf_ver: str, keystone_ver: str) -> str:
         f"| `[STABLE]` | **[Keystone Suite {keystone_ver}](https://github.com/furkanndev/KeyStone)** | Finalized curated 140+ software package database, real-time registry state validator (`HKCU`/`HKLM`), and automated workstation migration manifests. |\n"
         "| `[ACTIVE]` | **[Social-Saver](https://github.com/furkanndev/Social-Saver)** | Zero-receipt CDN stream interceptor (`seen = false`) with automated webview session token persistence and in-memory streaming `.zip` exporter. |\n"
         "| `[DAEMON]` | **[DirectoryChangeMonitor](https://github.com/furkanndev/DirectoryChangeMonitorService)** | Supervised Linux systemd background daemon auditing filesystem mutations with zero polling overhead via kernel `inotifywait`. |"
+        + extra_rows
     )
 
 def build_works_table(repos: List[Dict[str, Any]]) -> str:
@@ -172,7 +211,7 @@ def build_works_table(repos: List[Dict[str, Any]]) -> str:
         idx_str = f"{idx:02d}"
         lang_str = f"`{r['language']}`" if r.get("language") else "`Multi-Stack`"
         stack_str = f"{lang_str}<br><code>GitHub</code>"
-        desc = r.get("description") or "Public repository."
+        desc = r.get("description") or r.get("summary") or "Public repository."
         desc = desc.replace("\n", " ").replace("|", "\\|")
         row = f"| `{idx_str}` | **[{name}](https://github.com/{USERNAME}/{name})**<br><code>PROJECT</code> | {stack_str} | {desc} |"
         rows.append(row)
@@ -266,7 +305,12 @@ def sync(readme_path: Path, token: Optional[str] = None) -> bool:
             if r.get("language"):
                 languages.add(r["language"])
 
+            summary = ""
+            if name not in CURATED_PROJECTS and not r.get("description"):
+                summary = fetch_readme_summary(name)
+
             project_repos.append({
+                "summary": summary,
                 "name": name,
                 "version": versions.get(name),
                 "language": r.get("language"),
@@ -296,8 +340,9 @@ def sync(readme_path: Path, token: Optional[str] = None) -> bool:
     print(f"[*] Core Languages: {core_langs}")
 
     updated = content
-    updated = replace_between_markers(updated, "BROADCAST_TAPE", build_broadcast_tape(aurapdf_ver, keystone_ver), indent="    ")
-    updated = replace_between_markers(updated, "CURRENTLY", build_currently_table(aurapdf_ver, keystone_ver))
+    new_names = [r["name"] for r in project_repos if r["name"] not in CURATED_PROJECTS][:2]
+    updated = replace_between_markers(updated, "BROADCAST_TAPE", build_broadcast_tape(aurapdf_ver, keystone_ver, new_names), indent="    ")
+    updated = replace_between_markers(updated, "CURRENTLY", build_currently_table(aurapdf_ver, keystone_ver, build_new_rows(project_repos)))
     updated = replace_between_markers(updated, "WORKS_COUNT", f"All {total_repos} Repositories", inline=True)
     updated = replace_between_markers(updated, "WORKS_TABLE", build_works_table(project_repos))
     updated = replace_between_markers(updated, "TELEMETRY_STATS", build_telemetry_stats(total_repos, core_langs), indent="    ")
