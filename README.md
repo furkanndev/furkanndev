@@ -61,7 +61,7 @@ I am **Furkan Gültekin**, a **Software Developer & Desktop Architect** speciali
 | `[STABLE]` | **[Keystone Suite v3.1.2](https://github.com/furkanndev/KeyStone)** | Finalized curated 140+ software package database, real-time registry state validator (`HKCU`/`HKLM`), and automated workstation migration manifests. |
 | `[ACTIVE]` | **[Social-Saver](https://github.com/furkanndev/Social-Saver)** | Zero-receipt CDN stream interceptor (`seen = false`) with automated webview session token persistence and in-memory streaming `.zip` exporter. |
 | `[DAEMON]` | **[DirectoryChangeMonitor](https://github.com/furkanndev/DirectoryChangeMonitorService)** | Supervised Linux systemd background daemon auditing filesystem mutations with zero polling overhead via kernel `inotifywait`. |
-| `[NEW]` | **[Enclave](https://github.com/furkanndev/Enclave)** | Enclave is a high-security, zero-knowledge encrypted vault, steganographic media carrier, and integrated password manager. It protects your most confidential fi… (Python) |
+| `[NEW]` | **[Enclave](https://github.com/furkanndev/Enclave)** | Enclave is a zero-knowledge encrypted vault, steganographic media carrier, and integrated password manager. It protects sensitive files, credentials, and digita… (Python) |
 <!-- CURRENTLY:END -->
 
 ---
@@ -118,7 +118,7 @@ Unified post-installation Windows workstation setup suite, package deployment en
 | `08` | **[DealerDistribution](https://github.com/furkanndev/DealerDistribution)**<br><code>SIMULATION</code> | `C++` `Pointers`<br>`File I/O` `Streams` | Memory address pointer tracking with structured file serialization (`orders.txt`), randomized dealer traversal. |
 | `09` | **[BusPassengerAllocation](https://github.com/furkanndev/BusPassengerAllocation)**<br><code>STRUCTURES</code> | `C` `GCC`<br>`Stack & List` | Sequential row-by-row seating allocation across dynamic multi-bus quotas (up to 8 buses), manifests. |
 | `10` | **[IEEE754-Converter](https://github.com/furkanndev/IEEE754-Converter)**<br><code>LOW-LEVEL</code> | `C` `Bitwise`<br>`Computer Systems` | Single (32-bit float) and double (64-bit double) precision IEEE 754 bitwise extraction & synthesis. |
-| `11` | **[Enclave](https://github.com/furkanndev/Enclave)**<br><code>PROJECT</code> | `Python`<br><code>GitHub</code> | Enclave is a high-security, zero-knowledge encrypted vault, steganographic media carrier, and integrated password manager. It protects your most confidential fi… |
+| `11` | **[Enclave](https://github.com/furkanndev/Enclave)**<br><code>PROJECT</code> | `Python`<br><code>GitHub</code> | Enclave is a zero-knowledge encrypted vault, steganographic media carrier, and integrated password manager. It protects sensitive files, credentials, and digita… |
 <!-- WORKS_TABLE:END -->
 
 ---
