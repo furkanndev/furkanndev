@@ -21,7 +21,7 @@
     <!-- BROADCAST_TAPE:START -->
     <code>● BROADCAST TAPE:</code>
     <code>AURAPDF PRO v2.3.2</code> &bull;
-    <code>KEYSTONE WORKSTATION DEPLOYMENT v3.1.2</code> &bull;
+    <code>KEYSTONE WORKSTATION DEPLOYMENT v3.1.6</code> &bull;
     <code>NEW: ENCLAVE</code> &bull;
     <code>IN-PAGE PDF CANVAS ENGINE</code> &bull;
     <code>WIN32 REGISTRY HOOKS</code> &bull;
@@ -58,7 +58,7 @@ I am **Furkan Gültekin**, a **Software Developer & Desktop Architect** speciali
 | Signal | Focus Area | What's Shipped & Active |
 | :---: | :--- | :--- |
 | `[LIVE]` | **[AuraPDF Pro v2.3.2](https://github.com/furkanndev/AuraPDF)** | Standalone installer (`.exe`) deployed via Inno Setup 6; verified on-canvas direct text mutation, coordinate-aligned sandwich OCR, and AcroForm fill/serialization pipelines. |
-| `[STABLE]` | **[Keystone Suite v3.1.2](https://github.com/furkanndev/KeyStone)** | Finalized curated 140+ software package database, real-time registry state validator (`HKCU`/`HKLM`), and automated workstation migration manifests. |
+| `[STABLE]` | **[Keystone Suite v3.1.6](https://github.com/furkanndev/KeyStone)** | Finalized curated 140+ software package database, real-time registry state validator (`HKCU`/`HKLM`), and automated workstation migration manifests. |
 | `[ACTIVE]` | **[Social-Saver](https://github.com/furkanndev/Social-Saver)** | Zero-receipt CDN stream interceptor (`seen = false`) with automated webview session token persistence and in-memory streaming `.zip` exporter. |
 | `[DAEMON]` | **[DirectoryChangeMonitor](https://github.com/furkanndev/DirectoryChangeMonitorService)** | Supervised Linux systemd background daemon auditing filesystem mutations with zero polling overhead via kernel `inotifywait`. |
 | `[NEW]` | **[Enclave](https://github.com/furkanndev/Enclave)** | Enclave is a zero-knowledge encrypted vault, steganographic media carrier, and integrated password manager. It protects sensitive files, credentials, and digita… (Python) |
